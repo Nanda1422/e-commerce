@@ -1,0 +1,23 @@
+
+.slide {
+    display: relative; 
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide::after {
+    display: block; 
+    clear: both;
+}
+
+.item1{
+    display:relative; 
+    float: left;
+    margin-right:100% ;
+    overflow:hidden ;
+    width:100%;
+    transition: transform 600ms ease-in-out;
+    transition-timing-function: ease-in-out;
+    transition: none;
+}
+
